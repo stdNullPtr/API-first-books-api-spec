@@ -1,0 +1,21 @@
+type: object
+properties:
+  id:
+    type: integer
+    format: int64
+    example: 1
+  name:
+    type: string
+    description: Full name of the author
+    example: "George Orwell"
+  birthDate:
+    type: string
+    format: date
+    description: Date of birth of the author
+    example: "1903-06-25"
+required:
+  - name
+example:
+  id: 1
+  name: "J.K. Rowling"
+  birthDate: "1965-07-31"

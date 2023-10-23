@@ -1,0 +1,14 @@
+type: array
+items:
+  $ref: 'book.yaml'
+example:
+  - id: 1
+    title: "Harry Potter and the Philosopher's Stone"
+    authorId: 1
+    pages: 223
+    publishedDate: "1997-06-26"
+  - id: 2
+    title: "1984"
+    authorId: 2
+    pages: 328
+    publishedDate: "1949-06-08"

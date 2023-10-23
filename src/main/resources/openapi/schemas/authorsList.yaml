@@ -1,0 +1,10 @@
+type: array
+items:
+  $ref: 'author.yaml'
+example:
+  - id: 1
+    name: "J.K. Rowling"
+    birthDate: "1965-07-31"
+  - id: 2
+    name: "George Orwell"
+    birthDate: "1903-06-25"

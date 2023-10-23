@@ -1,0 +1,36 @@
+type: object
+properties:
+  id:
+    type: integer
+    format: int64
+    example: 201
+  bookId:
+    type: integer
+    format: int64
+    description: ID of the book being reviewed
+    example: 101
+  reviewerName:
+    type: string
+    description: Name of the reviewer
+    example: "John Doe"
+  rating:
+    type: integer
+    format: int32
+    minimum: 1
+    maximum: 5
+    description: Rating given by the reviewer (1 to 5)
+    example: 4
+  comments:
+    type: string
+    description: Detailed review comments
+    example: "A captivating read. Orwell's depiction of a dystopian society is chilling."
+required:
+  - bookId
+  - reviewerName
+  - rating
+example:
+  id: 1
+  bookId: 1
+  reviewerName: "John Doe"
+  rating: 5
+  comments: "This book was amazing, especially the twist at the end!"

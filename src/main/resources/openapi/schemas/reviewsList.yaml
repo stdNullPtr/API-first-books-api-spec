@@ -1,0 +1,14 @@
+type: array
+items:
+  $ref: 'review.yaml'
+example:
+  - id: 1
+    bookId: 1
+    reviewerName: "Alice"
+    rating: 5
+    comments: "Loved it!"
+  - id: 2
+    bookId: 2
+    reviewerName: "Bob"
+    rating: 4
+    comments: "Thought-provoking."

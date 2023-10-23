@@ -1,0 +1,33 @@
+type: object
+properties:
+  id:
+    type: integer
+    format: int64
+    example: 101
+  title:
+    type: string
+    description: Title of the book
+    example: "1984"
+  authorId:
+    type: integer
+    format: int64
+    description: ID of the author of the book
+    example: 1
+  pages:
+    type: integer
+    description: Number of pages in the book
+    example: 328
+  publishedDate:
+    type: string
+    format: date
+    description: When the book was published
+    example: "1949-06-08"
+required:
+  - title
+  - authorId
+example:
+  id: 1
+  title: "Harry Potter and the Philosopher's Stone"
+  authorId: 1
+  pages: 223
+  publishedDate: "1997-06-26"
